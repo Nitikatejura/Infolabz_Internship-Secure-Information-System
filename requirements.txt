@@ -1,0 +1,11 @@
+# AegisPoint Enterprise Security Platform (v3.1-LTS)
+# Pinned dependencies for production deployment
+
+streamlit>=1.35.0
+pandas>=2.0.0
+requests>=2.31.0
+python-whois>=0.8.0
+Pillow>=10.0.0
+pypdf>=3.0.0
+PyPDF2>=3.0.0
+rich>=13.0.0

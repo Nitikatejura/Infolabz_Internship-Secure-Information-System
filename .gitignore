@@ -1,0 +1,42 @@
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# SQLite & Runtime Database Files (Exclude runtime DBs from repo)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+sis_audit.db
+
+# Exported Reports & Temp Files
+reports/*.json
+reports/*.csv
+!reports/.gitkeep
+History_Copy.db
+*.tmp
+*.bak
+
+# Streamlit Cache & Local Configurations
+.streamlit/
+
+# OS Artifacts & IDEs
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
